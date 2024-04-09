@@ -1,0 +1,3 @@
+enum DrawingTool {
+    PENCIL, LINE, RECTANGLE, CIRCLE, TRIANGLE, ERASE, IMAGE
+}

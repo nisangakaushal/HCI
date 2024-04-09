@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TwoDViwer">
+  <grid id="27dc6" binding="main2DPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="654"/>
+    </constraints>
+    <properties>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <minimumSize width="800" height="600"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <component id="2bf2f" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Segoe UI Semibold" size="24" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Room Designer"/>
+        </properties>
+      </component>
+      <grid id="c85eb" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="1" vgap="1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9790b" class="javax.swing.JButton" binding="circleButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16306139"/>
+              <focusCycleRoot value="true"/>
+              <foreground color="-9902665"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Circle"/>
+            </properties>
+          </component>
+          <component id="12291" class="javax.swing.JButton" binding="triangleButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16306139"/>
+              <focusCycleRoot value="true"/>
+              <foreground color="-9902665"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Triangle"/>
+            </properties>
+          </component>
+          <component id="32341" class="javax.swing.JButton" binding="rectangleButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16306139"/>
+              <focusCycleRoot value="true"/>
+              <foreground color="-9902665"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Rectangle"/>
+            </properties>
+          </component>
+          <component id="70c19" class="javax.swing.JButton" binding="lineButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16306139"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="true"/>
+              <foreground color="-9902665"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Line"/>
+            </properties>
+          </component>
+          <component id="968c8" class="javax.swing.JButton" binding="insertImageButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <focusCycleRoot value="true"/>
+              <text value="Insert Image"/>
+            </properties>
+          </component>
+          <component id="153cb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Shapes"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="62ef5" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="20" right="30"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="93a9c" class="javax.swing.JSlider" binding="opacitySetter">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="563ec" class="javax.swing.JButton" binding="prewieButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Preview"/>
+            </properties>
+          </component>
+          <component id="e502e" class="javax.swing.JButton" binding="saveButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14219216"/>
+              <foreground color="-3885083"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <grid id="3ef4c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ae52" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Operations"/>
+                </properties>
+              </component>
+              <hspacer id="136d0">
+                <constraints/>
+              </hspacer>
+              <component id="4d6cb" class="javax.swing.JButton" binding="colorButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <focusCycleRoot value="true"/>
+                  <text value="Color"/>
+                </properties>
+              </component>
+              <component id="ef647" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <background color="-14219216"/>
+                  <focusCycleRoot value="true"/>
+                  <foreground color="-3885083"/>
+                  <text value="Clear"/>
+                </properties>
+              </component>
+              <component id="67936" class="javax.swing.JButton" binding="scaleDownButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <actionCommand value="ScaleDown"/>
+                  <autoscrolls value="true"/>
+                  <background color="-14219216"/>
+                  <focusCycleRoot value="true"/>
+                  <foreground color="-3885083"/>
+                  <text value="Scale Down"/>
+                </properties>
+              </component>
+              <component id="32026" class="javax.swing.JButton" binding="scaleUpButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <actionCommand value="ScaleUp"/>
+                  <autoscrolls value="true"/>
+                  <background color="-14219216"/>
+                  <focusCycleRoot value="true"/>
+                  <foreground color="-3885083"/>
+                  <text value="Scale Up"/>
+                </properties>
+              </component>
+              <component id="a16a6" class="javax.swing.JButton" binding="paintImageButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-14219216"/>
+                  <foreground color="-3885083"/>
+                  <text value="Paint Image"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="ebcbc" class="javax.swing.JButton" binding="proceedButton" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-16306139"/>
+          <foreground color="-9902665"/>
+          <text value="Generate"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
